@@ -270,3 +270,47 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
     background-color: #ead8f5;
 }
+
+
+/* Activity 6: Navigation Menu */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 30px;
+    background-color: white;
+    border-bottom: 2px solid #660066;
+}
+
+.logo {
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #800080;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #800080;
+}
