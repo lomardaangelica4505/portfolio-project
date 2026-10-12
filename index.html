@@ -218,6 +218,52 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to send me a message.</p>
+
+        <form class="contact-form" action="#" method="get">
+
+            <label for="name">Full Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="subject">Subject</label>
+            <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter the subject"
+                required
+            >
+
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
 </body>
 </html>
